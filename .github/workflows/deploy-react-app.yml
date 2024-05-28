@@ -3,7 +3,7 @@ name: React App Deployment # name of the workflo
 on:
   push:
     branches:
-      - wallet-selector # branch name
+      - ft_checkers # branch name
 
 jobs:
   deploy-react-to-gh-pages:
@@ -20,7 +20,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.5
         with:
-          node-version: '18.17.0'
+          node-version: '14.17.3'
 
       # cache the dependencies to speed up the build
       - name: Cache dependencies
