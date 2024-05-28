@@ -3,7 +3,7 @@ name: React App Deployment # name of the workflo
 on:
   push:
     branches:
-      - ft_checkers # branch name
+      - wallet-selector # branch name
 
 jobs:
   deploy-react-to-gh-pages:
