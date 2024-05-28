@@ -20,7 +20,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.1.5
         with:
-          node-version: "14.17.3"
+          node-version: '14.17.3'
 
       # cache the dependencies to speed up the build
       - name: Cache dependencies
